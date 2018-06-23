@@ -5,7 +5,7 @@ Library           Selenium2Library
 @{packages}       selenium==3.9.0    robotframework-selenium2library==3.0.0    robotframework-seleniumlibrary==3.1.0
 
 *** Test Cases ***
-update_role_with_invalid_data
+verifying_role_updation_with_invalid_data.robot
     Open Browser    http://192.168.50.66/    ff
     Input Text    xpath=//input[@id='emailid']    veera@gm.com
     Input Password    xpath=//input[@id='pwd']    mypassword
